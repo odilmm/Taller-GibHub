@@ -3,25 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 4: Tablas con color en las cabeceras</title>
+        <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;  
+            text-align: center;          
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Tabla de datos</h1>
  <table border="1">
     <tr>
         <th>Nombre</th>
-        <th>Edad</th>
-        <th>Ciudad</th>
+        <th>Apellido</th>
+        <th>Correo electronico</th>
+        <th>Telefono</th>
     </tr>
     <tr>
         <td>Ana</td>
-        <td>28</td>
-        <td>Cali</td>
+        <td>Muñoz</td>
+        <td>anabanana@gmail.com</td>
+        <td>3125458789</td>
     </tr>
         <tr>
         <td>Carlos</td>
-        <td>34</td>
-        <td>Popayán</td>
+        <td>Lopez</td>
+        <td>carloslopez@gmail.com</td>
+        <td>3102525854</td>
+    </tr>
+    </tr>
+        <tr>
+        <td>Daniel</td>
+        <td>Vergara</td>
+        <td>danielcpdn@gmail.com</td>
+        <td>3125889878</td>
+    </tr>
+        </tr>
+    <tr>
+        <td>Oscar</td>
+        <td>Pedraza</td>
+        <td>pedrazaoscar@gmail.com</td>
+        <td>3527845484</td>
+    </tr>
+        <tr>
+        <td>Odil</td>
+        <td>moreno</td>
+        <td>odilmoreno56@gmail.com</td>
+        <td>3104579642</td>
     </tr>
  </table>
 </body>
